@@ -1,0 +1,24 @@
+{
+  "name": "git-cli",
+  "version": "1.0.0",
+  "description": "Use shortcuts for creating .gitignore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Git",
+    "Github",
+    "gitignore",
+    "CLI"
+  ],
+  "author": "Bineet Naidu",
+  "license": "MIT",
+  "bin": {
+    "gitignore": "index.js"
+  },
+  "dependencies": {
+    "caporal": "^1.4.0",
+    "chalk": "^4.1.0"
+  }
+}
