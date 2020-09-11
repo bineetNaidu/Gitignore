@@ -6,7 +6,7 @@ const chalk = require("chalk");
 const log = console.log;
 
 // Servise LIST
-const { node, react } = require("./serviceLists");
+const { node, react, vue, angular } = require("./serviceLists");
 
 program
   .version("1.0.0")
@@ -14,6 +14,10 @@ program
   .action(async ({ typeOfService }) => {
     if (typeOfService == "react") {
       addGitIgnore("Reactjs", react);
+    } else if (typeOfService == "vue") {
+      addGitIgnore("Vue Js", vue);
+    } else if (typeOfService == "angular") {
+      addGitIgnore("Angular", angular);
     } else {
       addGitIgnore("Node", node);
     }
