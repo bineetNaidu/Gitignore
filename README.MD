@@ -26,6 +26,8 @@ gitignore --help
 gitignore --version
 gitignore node #for nodejs gitignore
 gitignore react #for reactjs gitignore
+gitignore vue #for vuejs gitignore
+gitignore angular #for Angular gitignore
 ```
 
 ---
